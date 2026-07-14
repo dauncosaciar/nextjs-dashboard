@@ -1,10 +1,10 @@
 import "@/app/ui/global.css";
-import { geist } from "@/app/ui/fonts";
+import { roboto } from "@/app/ui/fonts";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${geist.className} antialiased`}>{children}</body>
+      <body className={`${roboto.className} antialiased`}>{children}</body>
     </html>
   );
 }
